@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap");
+:root {
+  font-family: "Open Sans";
+  --text-primary: #b6b6b6;
+  --text-primary-dark: #515152;
+  --text-secondary: hsl(0, 0%, 93%);
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --bg-pinkOne: #df49a6;
+  --bg-pinkTwo: #f24f80;
+  --transition-speed: 600ms;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: #1d1d1d;
+}

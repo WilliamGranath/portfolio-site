@@ -1,0 +1,23 @@
+#Music {
+  position: fixed;
+  z-index: 1;
+  top: 1rem;
+  right: 1rem;
+  color: #df49a6;
+}
+
+.button {
+  width: 38px;
+  height: 30px;
+  background-color: #10142f;
+  border-color: var(--bg-pinkTwo);
+  color: var(--bg-pinkOne);
+  border-radius: 30px;
+}
+
+.button:hover {
+  background-color: #334a8f;
+  cursor: pointer;
+  border-color: var(--bg-pinkOne);
+  color: var(--bg-pinkTwo);
+}
