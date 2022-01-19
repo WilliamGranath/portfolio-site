@@ -10,7 +10,7 @@ function ContactLinks() {
             href="https://github.com/WilliamGranath"
             aria-label=""
             target="_blank"
-            rel="norefferer"
+            rel="noreferrer"
             className="link"
           >
             <svg
@@ -35,7 +35,7 @@ function ContactLinks() {
             href="https://www.instagram.com/wille_granath/"
             aria-label=""
             target="_blank"
-            rel="norefferer"
+            rel="noreferrer"
             className="link"
           >
             <svg
@@ -61,7 +61,7 @@ function ContactLinks() {
             href="https://twitter.com/william_granath"
             aria-label=""
             target="_blank"
-            rel="norefferer"
+            rel="noreferrer"
             className="link"
           >
             <svg
@@ -85,7 +85,7 @@ function ContactLinks() {
             href="https://www.linkedin.com/in/william-granath-a812b6228/"
             aria-label=""
             target="_blank"
-            rel="norefferer"
+            rel="noreferrer"
             className="link"
           >
             <svg
