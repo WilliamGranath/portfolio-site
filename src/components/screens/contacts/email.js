@@ -12,7 +12,7 @@ function Email() {
       <a
         className="email-link"
         href="mailto:williamgranath@gmail.com"
-        rel="noopener norefferer"
+        rel="noopener noreferrer"
         target="_blank"
       >
         Contact Me
