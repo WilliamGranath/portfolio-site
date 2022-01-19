@@ -9,6 +9,7 @@ const projectInfo = [
                   see ur personal playlists, play, pause and skip songs, come and test the site ur self by clicking the picture.`,
     techList: "Javascript, React, Redux, Spofy API, CSS, Git",
     image: "./Spotify.png",
+    GitLink: "https://github.com/WilliamGranath/Spotify-clone",
     link: "https://spotifyclone-wille.netlify.app",
   },
   {
@@ -16,7 +17,8 @@ const projectInfo = [
     projectDesc: `A shop build with Fakestore API toghether with React and Redux. I integrated klarna via Iframe in the checkout, come and test the site ur self by clicking the picture.  `,
     techList: "Javascript, React, Redux, Spofy API, CSS, Git",
     image: "./Web-shop.png",
-    link: "https://webshop-wille.netlify.app"
+    GitLink: "https://github.com/WilliamGranath/webb-shop",
+    link: "https://webshop-wille.netlify.app",
   },
 ];
 

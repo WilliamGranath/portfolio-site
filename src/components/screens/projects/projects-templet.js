@@ -12,7 +12,11 @@ function ProjectsTemplate({ project }) {
             <div>
               <p class="project-overline">Featured Project</p>
               <h3 class="project-title">
-                <a href="" rel="noopener noreferrer" target={"_blank"}>
+                <a
+                  href={project.link}
+                  rel="noopener noreferrer"
+                  target={"_blank"}
+                >
                   {project.title}
                 </a>
               </h3>
@@ -24,7 +28,7 @@ function ProjectsTemplate({ project }) {
               </ul>
               <div className="project-links">
                 <a
-                  href=""
+                  href={project.GitLink}
                   aria-label="External Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -44,7 +48,7 @@ function ProjectsTemplate({ project }) {
                   </svg>
                 </a>
                 <a
-                  href=""
+                  href={project.link}
                   aria-label="External Link"
                   rel="noopener noreferrer"
                   target="_blank"
@@ -69,8 +73,8 @@ function ProjectsTemplate({ project }) {
             </div>
           </div>
           <div className="project-image">
-            <a href={project.link} rel="noopener noreferer" target={"_blank"}>
-              <img className="img" src={project.image} />
+            <a href={project.link} rel="noopener noreferrer" target={"_blank"}>
+              <img className="img" alt="" src={project.image} />
             </a>
           </div>
         </li>

@@ -1,9 +1,6 @@
 import * as React from "react";
-import { motion, useAnimation } from "framer-motion";
 import "./styles.css";
 import Skillbar from "./Skillbar/skillbar";
-import { useEffect } from "react";
-import { useInView } from "react-intersection-observer";
 
 const skills = [
   {
@@ -84,7 +81,7 @@ function About() {
         </div>
       </div>
       <div className="skills">
-        <img className="profilePic" src="Profile-pic.jpg" />
+        <img className="profilePic" src="Profile-pic.jpg" alt="" />
         <div id="bars-container" data-animation="slide-in-right">
           {renderSkillbar}
         </div>
