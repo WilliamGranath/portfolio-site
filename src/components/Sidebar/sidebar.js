@@ -46,36 +46,36 @@ function Sidebar() {
           </div>
         </li>
         <li className="nav-item">
-          <a href="#Home" className="nav-link">
+          <a href="#home" className="nav-link">
             <HomeTwoToneIcon
-              href="#Home"
+              href="#home"
               className="sidebar-icon icon-color theme-icon"
             />
             <span className="link-text">Home</span>
           </a>
         </li>
         <li className="nav-item">
-          <a href="#About" className="nav-link">
+          <a href="#about" className="nav-link">
             <PermIdentityTwoToneIcon
-              href="#About"
+              href="#about"
               className="sidebar-icon icon-color theme-icon"
             />
             <span className="link-text">About</span>
           </a>
         </li>
         <li className="nav-item">
-          <a href="#Projects" className="nav-link">
+          <a href="#projects" className="nav-link">
             <RocketLaunchTwoToneIcon
-              href="#Projects"
+              href="#projects"
               className="sidebar-icon icon-color theme-icon"
             />
             <span className="link-text">Projects</span>
           </a>
         </li>
         <li className="nav-item last-nav-item">
-          <a href="#Contacts" className="nav-link">
+          <a href="#contacts" className="nav-link">
             <EmailTwoToneIcon
-              href="#Contacts"
+              href="#contacts"
               className="sidebar-icon icon-color theme-icon"
             />
             <span className="link-text">Contacts</span>

@@ -9,15 +9,15 @@ const skills = [
   },
   {
     title: "Back-end",
-    width: "50%",
+    width: "80%",
   },
   {
     title: "React",
-    width: "70%",
+    width: "90%",
   },
   {
     title: "Git",
-    width: "80%",
+    width: "60%",
   },
 ];
 
@@ -27,7 +27,7 @@ const renderSkillbar = skills.map((skill, index) => {
 
 function About() {
   return (
-    <div id="About" className="screen">
+    <div id="about" className="screen">
       <div className="text-zone">
         <h2 className="title">
           Skills & <br /> About me
@@ -46,12 +46,12 @@ function About() {
           with a clear vision for the future. I see each challenge as one chance
           to develop and become sharper.
         </p>
-        <div clasName="info-container">
+        <div className="info-container">
           <div className="quick-contacts">
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 24 24"
               className="text-mainColor w-5 h-5"
               height="1em"
@@ -67,7 +67,7 @@ function About() {
             <svg
               stroke="currentColor"
               fill="currentColor"
-              stroke-width="0"
+              strokeWidth="0"
               viewBox="0 0 1024 1024"
               className="text-mainColor w-5 h-5"
               height="1em"

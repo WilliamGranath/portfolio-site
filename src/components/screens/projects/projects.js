@@ -27,7 +27,7 @@ function Projects() {
     return <ProjectsTemplate key={index} project={project} />;
   });
   return (
-    <div className="projects">
+    <div id="projects">
       <h2 className="project-heading" style={{}}>
         Projects
       </h2>

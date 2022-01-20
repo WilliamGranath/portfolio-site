@@ -5,7 +5,7 @@ import "./styles.css";
 
 function Contacts() {
   return (
-    <div id="Contacts" className="screen">
+    <div id="contacts" className="screen">
       <Email />
       <ContactLinks />
     </div>

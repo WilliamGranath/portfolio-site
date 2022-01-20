@@ -19,7 +19,7 @@ function Skillbar({ skill }) {
   };
  
   return (
-    <div class="chart">
+    <div className="chart">
       <span>{skill.title}</span>
       <footer>
         <motion.div
