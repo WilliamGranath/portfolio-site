@@ -6,7 +6,7 @@ import Typewriter from "typewriter-effect";
 function Home() {
   return (
     <div id="home" className="videoContainer">
-    <video autoPlay preload="auto" muted loop id="myVideo">
+    <video autoPlay preload={"auto"} muted loop id="myVideo">
         <source src={RetroWaves} type="video/mp4" />
       </video>
       <div className="overlay">
