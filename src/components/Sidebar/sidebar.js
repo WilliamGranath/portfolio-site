@@ -2,6 +2,7 @@ import * as React from "react";
 import "./styles.css";
 import HomeTwoToneIcon from "@mui/icons-material/HomeTwoTone";
 import PermIdentityTwoToneIcon from "@mui/icons-material/PermIdentityTwoTone";
+import DomainTwoToneIcon from "@mui/icons-material/DomainTwoTone";
 import RocketLaunchTwoToneIcon from "@mui/icons-material/RocketLaunchTwoTone";
 import EmailTwoToneIcon from "@mui/icons-material/EmailTwoTone";
 import { useState } from "react";
@@ -51,7 +52,7 @@ function Sidebar() {
               href="#home"
               className="sidebar-icon icon-color theme-icon"
             />
-            <span className="link-text">Home</span>
+            <span className="link-text">Home</span>/
           </a>
         </li>
         <li className="nav-item">
@@ -61,6 +62,15 @@ function Sidebar() {
               className="sidebar-icon icon-color theme-icon"
             />
             <span className="link-text">About</span>
+          </a>
+        </li>{" "}
+        <li className="nav-item">
+          <a href="#experiences" className="nav-link">
+            <DomainTwoToneIcon
+              href="#experiences"
+              className="sidebar-icon icon-color theme-icon"
+            />
+            <span className="link-text">Experiences</span>
           </a>
         </li>
         <li className="nav-item">

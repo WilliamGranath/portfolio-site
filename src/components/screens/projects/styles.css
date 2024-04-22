@@ -174,7 +174,11 @@
     margin-bottom: 100px;
   }
 }
-
+@media only screen and (max-width: 1440px) {
+  .container {
+    padding: 0rem 5rem !important ;
+  }
+}
 /* Small screens */
 @media only screen and (max-width: 768px) {
   #Projects {
@@ -184,7 +188,7 @@
   .container {
     padding: 0;
   }
-  .project-heading{
+  .project-heading {
     padding-left: 4rem;
   }
   .project-description {
@@ -212,7 +216,7 @@
   #Projects {
     padding: 0 4rem;
   }
-  .project-heading{
+  .project-heading {
     padding-left: 0rem;
   }
 }

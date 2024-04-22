@@ -7,7 +7,7 @@ const projectInfo = [
     projectDesc: `A simple Spotify clone built during Techover Academy 2022.
                   With the help of API:s you can log in on ur own account and
                   see ur personal playlists, play, pause and skip songs, come and test the site ur self by clicking the picture.`,
-    techList: "Javascript, React, Redux, Spofy API, CSS, Git",
+    techList: "Javascript, React, Redux, Spotify API, CSS, Git",
     image: "./Spotify.png",
     GitLink: "https://github.com/WilliamGranath/Spotify-clone",
     link: "https://spotifyclone-wille.netlify.app",
@@ -15,7 +15,7 @@ const projectInfo = [
   {
     title: "Web Shop",
     projectDesc: `A shop build with Fakestore API toghether with React and Redux. I integrated klarna via Iframe in the checkout, come and test the site ur self by clicking the picture.  `,
-    techList: "Javascript, React, Redux, Spofy API, CSS, Git",
+    techList: "Javascript, React, Redux, Klarna API, CSS, Git",
     image: "./Web-shop.png",
     GitLink: "https://github.com/WilliamGranath/webb-shop",
     link: "https://webshop-wille.netlify.app",
