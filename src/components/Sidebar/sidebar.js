@@ -52,7 +52,7 @@ function Sidebar() {
               href="#home"
               className="sidebar-icon icon-color theme-icon"
             />
-            <span className="link-text">Home</span>/
+            <span className="link-text">Home</span>
           </a>
         </li>
         <li className="nav-item">
