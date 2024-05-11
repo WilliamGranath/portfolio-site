@@ -20,6 +20,14 @@ const projectInfo = [
     GitLink: "https://github.com/WilliamGranath/webb-shop",
     link: "https://webshop-wille.netlify.app",
   },
+  {
+    title: "15-Puzzle",
+    projectDesc: `A 15 puzzle game implemented using React and TypeScript (TSX). Test your problem-solving skills by rearranging the numbered tiles to form the correct sequence. Click on the image to experience the game for yourself `,
+    techList: "Typescript, React, CSS, Git",
+    image: "./15-puzzle.png",
+    GitLink: "https://github.com/WilliamGranath/15-game-tsx",
+    link: "https://15-game-tsx.vercel.app",
+  },
 ];
 
 function Projects() {
