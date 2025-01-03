@@ -6,7 +6,7 @@ const projectInfo = [
     title: "Spotify Clone",
     projectDesc: `A simple Spotify clone built during Techover Academy 2022.
                   With the help of API:s you can log in on ur own account and
-                  see ur personal playlists, play, pause and skip songs, come and test the site ur self by clicking the picture.`,
+                  see ur personal playlists, play, pause and skip songs would work if spotify didnt revoke api key since it isnt deemd by the to be personal use, come and test the site ur self by clicking the picture.`,
     techList: "Javascript, React, Redux, Spotify API, CSS, Git",
     image: "./Spotify.png",
     GitLink: "https://github.com/WilliamGranath/Spotify-clone",
